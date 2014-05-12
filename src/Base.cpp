@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "Base.h"
 
+// Base class
 Base::Base()
 {
     //ctor

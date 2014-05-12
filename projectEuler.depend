@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1397888751 source:/home/jagadeep/codes/projectEuler/main.cpp
+	<iostream>
+	"Problem1.h"
+	"Problem2.h"
+	"Problem3.h"
+
+1397806916 /home/jagadeep/codes/projectEuler/include/Problem1.h
+
+1397806992 source:/home/jagadeep/codes/projectEuler/src/Problem1.cpp
+	"Problem1.h"
+	<stdlib.h>
+	<iostream>
+
+1397806400 source:/home/jagadeep/codes/projectEuler/lib/PrimeNumber.cpp
+	"PrimeNumber.h"
+
+1397804971 /home/jagadeep/codes/projectEuler/lib/PrimeNumber.h
+
+1397806961 /home/jagadeep/codes/projectEuler/include/Problem2.h
+
+1397807237 source:/home/jagadeep/codes/projectEuler/src/Problem2.cpp
+	"Problem2.h"
+	<stdlib.h>
+	<iostream>
+
+1397815339 /home/jagadeep/codes/projectEuler/include/Problem3.h
+	"Base.h"
+
+1397814274 /home/jagadeep/codes/projectEuler/include/Base.h
+
+1397814065 source:/home/jagadeep/codes/projectEuler/src/Base.cpp
+	<iostream>
+	<stdlib.h>
+	"Base.h"
+
+1397815168 source:/home/jagadeep/codes/projectEuler/src/Problem3.cpp
+	"Problem3.h"
+	<stdlib.h>
+	<iostream>
+

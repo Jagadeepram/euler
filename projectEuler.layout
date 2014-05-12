@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include/Base.h" open="1" top="1" tabpos="5">
+		<Cursor position="133" topLine="0" />
+	</File>
+	<File name="include/Problem1.h" open="0" top="0" tabpos="3">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="include/Problem3.h" open="1" top="0" tabpos="4">
+		<Cursor position="152" topLine="2" />
+	</File>
+	<File name="lib/PrimeNumber.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="112" topLine="0" />
+	</File>
+	<File name="lib/PrimeNumber.h" open="0" top="0" tabpos="5">
+		<Cursor position="186" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="189" topLine="0" />
+	</File>
+	<File name="src/Base.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/Problem1.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="156" topLine="16" />
+	</File>
+	<File name="src/Problem3.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="201" topLine="7" />
+	</File>
+</CodeBlocks_layout_file>

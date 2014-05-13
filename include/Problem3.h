@@ -3,7 +3,7 @@
 #define PROBLEM3_H
 typedef long long int datatype ;
 
-class Problem3 : public Base
+class Problem3 //: public Base
 {
     public:
         Problem3();

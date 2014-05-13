@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-    Problem3 p3 ;
-    p3.Instance()->run();
+    Problem2::Instance()->run();
     return 0;
 }

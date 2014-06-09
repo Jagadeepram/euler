@@ -6,6 +6,6 @@ using namespace std;
 
 int main()
 {
-    Problem2::Instance()->run();
+    Problem3::Instance()->run();
     return 0;
 }

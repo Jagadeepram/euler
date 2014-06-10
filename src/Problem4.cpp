@@ -77,6 +77,7 @@ datatype Problem4::compute()
         }
         num1 -= 1;
     }
+    return 0; // Technically it should never reach this line.
 }
 
 bool Problem4::IsPalindrom(datatype item)

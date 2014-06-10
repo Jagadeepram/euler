@@ -30,5 +30,12 @@ void Problem5::run()
 
 datatype Problem5::compute()
 {
-    return 100;
+    /**
+    Create a table to prime factors
+    containing prime numbers and number
+    of its occurance for all number.
+
+    At the end get a number by multiplying
+    all common prime factors.
+    */
 }

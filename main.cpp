@@ -6,7 +6,6 @@
 #include "Problem5.h"
 using namespace std;
 
-
 int main()
 {
     Problem1::Instance()->run();

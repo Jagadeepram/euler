@@ -26,6 +26,19 @@ Problem4* Problem4:: Instance()
     }
     return instance;
 }
+/**       Others solutions:
+
+The maximum length of product of two three digit numbers is 6.
+
+999*999 = 998001
+abccba is a needed palindrom.
+
+11(9091a + 910b + 100c)
+
+So it is divisible by 11.
+
+/*
+
 /**
 Question:
 

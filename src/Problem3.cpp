@@ -27,6 +27,9 @@ Problem3* Problem3:: Instance()
     return instance;
 }
 
+// TODO : 1) Know efficient prime functions.
+//        2) http://www.alpertron.com.ar/ECM.HTM
+
 /**
 Problem:
 

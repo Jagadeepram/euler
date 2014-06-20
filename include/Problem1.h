@@ -9,6 +9,7 @@ class Problem1
         Problem1();
         void run();
         int compute();
+        int computeShortMethod();
         virtual ~Problem1();
     protected:
     private:

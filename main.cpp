@@ -9,6 +9,6 @@ using namespace std;
 
 int main()
 {
-    Problem5::Instance()->run();
+    Problem1::Instance()->run();
     return 0;
 }

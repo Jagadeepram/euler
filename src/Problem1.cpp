@@ -13,7 +13,7 @@ Problem1::~Problem1()
 }
 void Problem1::run()
 {
-    cout << compute();
+    cout << computeShortMethod();
 }
 int Problem1:: compute()
 {
@@ -23,6 +23,10 @@ int Problem1:: compute()
         if( (! (i%3)) || ( !(i%5)))
             sum+=i;
     return sum;
+}
+int Problem1:: computeShortMethod()
+{
+    return ( (333*501)+(199*500)-(33*1005));
 }
 Problem1* Problem1:: Instance()
 {

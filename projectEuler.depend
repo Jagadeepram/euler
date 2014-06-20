@@ -44,14 +44,15 @@
 
 1402332922 c:\jagadeep\euler\lib\primenumber.h
 
-1402334099 source:c:\jagadeep\euler\main.cpp
+1402514474 source:c:\jagadeep\euler\main.cpp
 	<iostream>
 	"Problem1.h"
 	"Problem2.h"
 	"Problem3.h"
 	"Problem4.h"
+	"Problem5.h"
 
-1402332922 c:\jagadeep\euler\include\problem1.h
+1402514355 c:\jagadeep\euler\include\problem1.h
 
 1402332922 c:\jagadeep\euler\include\problem2.h
 
@@ -139,4 +140,17 @@
 	<iostream>
 
 1402390816 c:\jagadeep\programming\euler\include\problem5.h
+
+1402514176 c:\jagadeep\euler\include\problem5.h
+
+1402514176 source:c:\jagadeep\euler\src\problem4.cpp
+	<stdlib.h>
+	<iostream>
+	"Problem4.h"
+	"PrimeNumber.h"
+
+1402514176 source:c:\jagadeep\euler\src\problem5.cpp
+	"Problem5.h"
+	<stdlib.h>
+	<iostream>
 

@@ -29,6 +29,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -53,6 +54,8 @@
 		<Unit filename="include/Problem3.h" />
 		<Unit filename="include/Problem4.h" />
 		<Unit filename="include/Problem5.h" />
+		<Unit filename="include/Recurring26.h" />
+		<Unit filename="include/SpiralRing.h" />
 		<Unit filename="lib/PrimeNumber.cpp" />
 		<Unit filename="lib/PrimeNumber.h" />
 		<Unit filename="main.cpp" />
@@ -62,6 +65,8 @@
 		<Unit filename="src/Problem3.cpp" />
 		<Unit filename="src/Problem4.cpp" />
 		<Unit filename="src/Problem5.cpp" />
+		<Unit filename="src/Recurring26.cpp" />
+		<Unit filename="src/SpiralRing.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

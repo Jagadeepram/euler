@@ -152,3 +152,73 @@
 	<stdlib.h>
 	<iostream>
 
+1422536602 source:c:\jagadeep\codes\euler\lib\primenumber.cpp
+	"PrimeNumber.h"
+
+1422536602 c:\jagadeep\codes\euler\lib\primenumber.h
+
+1430306706 source:c:\jagadeep\codes\euler\main.cpp
+	<iostream>
+	"Problem1.h"
+	"Problem2.h"
+	"Problem3.h"
+	"Problem4.h"
+	"Problem5.h"
+	"SpiralRing.h"
+	"Recurring26.h"
+
+1422536602 c:\jagadeep\codes\euler\include\problem1.h
+
+1422536602 c:\jagadeep\codes\euler\include\problem2.h
+
+1422536602 c:\jagadeep\codes\euler\include\problem3.h
+	"Base.h"
+
+1422536602 c:\jagadeep\codes\euler\include\base.h
+
+1422536602 c:\jagadeep\codes\euler\include\problem4.h
+
+1422536602 c:\jagadeep\codes\euler\include\problem5.h
+
+1422536602 source:c:\jagadeep\codes\euler\src\base.cpp
+	<iostream>
+	<stdlib.h>
+	"Base.h"
+
+1422536602 source:c:\jagadeep\codes\euler\src\problem1.cpp
+	"Problem1.h"
+	<stdlib.h>
+	<iostream>
+
+1422536602 source:c:\jagadeep\codes\euler\src\problem2.cpp
+	"Problem2.h"
+	<stdlib.h>
+	<iostream>
+
+1422536602 source:c:\jagadeep\codes\euler\src\problem3.cpp
+	<stdlib.h>
+	<iostream>
+	"Problem3.h"
+	"PrimeNumber.h"
+
+1422536602 source:c:\jagadeep\codes\euler\src\problem4.cpp
+	<stdlib.h>
+	<iostream>
+	"Problem4.h"
+	"PrimeNumber.h"
+
+1422536602 source:c:\jagadeep\codes\euler\src\problem5.cpp
+	"Problem5.h"
+	<stdlib.h>
+	<iostream>
+
+1430299334 source:c:\jagadeep\codes\euler\src\recurring26.cpp
+
+1430298537 c:\jagadeep\codes\euler\include\recurring26.h
+
+1430380639 c:\jagadeep\codes\euler\include\spiralring.h
+
+1431052042 source:c:\jagadeep\codes\euler\src\spiralring.cpp
+	<iostream>
+	"SpiralRing.h"
+

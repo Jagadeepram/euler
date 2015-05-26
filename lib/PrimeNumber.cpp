@@ -12,7 +12,7 @@ PrimeNumber::~PrimeNumber()
 bool PrimeNumber::IsPrime(int n)
 {
     int i;
-    for( i = 2 ; i < (n/2) ; i++)
+    for( i = 2 ; i <= (n/2) ; i++)
     {
         if( n%i == 0)
         {

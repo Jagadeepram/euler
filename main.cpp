@@ -11,8 +11,6 @@ using namespace std;
 
 int main()
 {
-    SpiralRing *sr = new SpiralRing();
-    sr->print();
-    delete (sr);
+    Problem5::Instance()->run();
     return 0;
 }

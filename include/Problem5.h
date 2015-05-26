@@ -1,8 +1,15 @@
 #ifndef PROBLEM5_H
 #define PROBLEM5_H
-
+#include <vector>
 
 typedef long long int datatype ;
+
+typedef struct
+{
+    int num;
+    int primeNum;
+    int primeCount;
+} sPrime;
 
 class Problem5 //: public Base
 {
@@ -14,6 +21,8 @@ class Problem5 //: public Base
         virtual ~Problem5();
     protected:
     private:
+        std::vector<sPrime> primeTable;
+
 };
 
 #endif // PROBLEM5_H

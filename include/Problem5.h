@@ -21,7 +21,7 @@ class Problem5 //: public Base
         virtual ~Problem5();
     protected:
     private:
-        std::vector<sPrime> primeTable;
+        void addPrimeTable(std::vector<sPrime>&,sPrime&);
 
 };
 

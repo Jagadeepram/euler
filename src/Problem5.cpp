@@ -40,27 +40,35 @@ void Problem5::run()
     cout << compute();
     free(this);
 }
-/**
-Create a table to prime factors
-containing prime numbers and number
-of its occurance for all number.
-
-At the end get a number by multiplying
-all common prime factors.
-*/
-/**
-Solution:
-1) Draw the table of prime factors for all the numbers.
-2) Get the maximum prime factors from each and multiply.
-*/
 
 ///TODO: Extracted all prime numbers. Sort and get the maximum prime elements.
+ void Problem5::addPrimeTable(vector<sPrime>& vPrime,sPrime& tPrime)
+//void Problem5::addPrimeTable(sPrime prime)
+{
+    vector<sPrime>:: iterator iter;
+    for (iter = vPrime.begin() ; iter != vPrime.end() ; iter++)
+    {
+        if((iter->primeNum == tPrime.primeNum))
+        {
+            if(iter->primeCount < tPrime.primeCount)
+            {
+///cout << " Replace " << iter->primeNum << " from " << iter->primeCount << " to " <<tPrime.primeCount << "\n";
+               iter->primeCount =  tPrime.primeCount;
+            }
+            return ;
+        }
+    }
+    vPrime.push_back(tPrime);
+///cout << " Push " << tPrime.primeNum << " " << tPrime.primeCount << "\n";
+}
+
 datatype Problem5::compute()
 {
     vector<sPrime> pNumber;
-    vector<sPrime>:: iterator iter;
+    vector<sPrime>::iterator iter;
     sPrime tempNumber;
     int compositeNum, primeNumItt;
+    int prod = 1;
     for (int i=2 ; i <= 20 ; i++)
     {
         if(PrimeNumber::IsPrime(i))
@@ -68,7 +76,7 @@ datatype Problem5::compute()
             tempNumber.num = i;
             tempNumber.primeNum = i ;
             tempNumber.primeCount = 1 ;
-            pNumber.push_back(tempNumber);
+            addPrimeTable(pNumber,tempNumber);
         }
         else
         {
@@ -86,7 +94,7 @@ datatype Problem5::compute()
                 }
                 if(tempNumber.primeCount != 0)
                 {
-                    pNumber.push_back(tempNumber);
+                    addPrimeTable(pNumber,tempNumber);
                 }
                 primeNumItt = PrimeNumber::NextPrime(primeNumItt);
             }
@@ -94,7 +102,11 @@ datatype Problem5::compute()
     }
     for (iter = pNumber.begin() ; iter != pNumber.end() ; iter++)
     {
-        cout << iter->num<< " "<<iter->primeNum << "  " << iter->primeCount << "\n";
+///cout << iter->num<< " "<<iter->primeNum << "  " << iter->primeCount << "\n";
+
+        for (int j =1 ; j <=iter->primeCount ; j++ )
+            prod *= iter->primeNum;
     }
-    return 0;
+///cout << "Num" << prod << "\n";
+    return prod;
 }

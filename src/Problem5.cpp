@@ -37,7 +37,8 @@ Problem5* Problem5:: Instance()
 
 void Problem5::run()
 {
-    cout << compute();
+    cout << "My Solution " << compute() << "\n";
+    bestSolution1();
     free(this);
 }
 
@@ -109,4 +110,39 @@ datatype Problem5::compute()
     }
 ///cout << "Num" << prod << "\n";
     return prod;
+}
+
+
+#define ulong unsigned long
+
+void Problem5::bestSolution1()
+{
+    const ulong val = 20;
+    ulong x;
+    ulong y;
+
+    for(x = val ; ; x += val)
+    {
+        for(y = val-1 ; y ; y--)
+        {
+            if(x % y != 0)
+            {
+                break;
+            }
+        }
+
+        if(y == 0)
+        {
+            cout << "Best Solution "<<x;
+            break;
+        }
+    }
+    /** /** PYTHON SOLUTION **/ /**
+    for k in (range(1, 21)):
+    if i % k > 0:
+        for j in range(1, 21):
+            if (i*j) % k == 0:
+                i *= j
+                break
+                */
 }

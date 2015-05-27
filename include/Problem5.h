@@ -23,6 +23,8 @@ class Problem5 //: public Base
     private:
         void addPrimeTable(std::vector<sPrime>&,sPrime&);
 
+        void bestSolution1();
+
 };
 
 #endif // PROBLEM5_H
